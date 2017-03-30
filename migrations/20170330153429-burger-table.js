@@ -12,7 +12,7 @@ module.exports = {
         },
         name: Sequelize.STRING,
         devoured: {
-            type :Sequelize.BOOLEAN,
+            type: Sequelize.BOOLEAN,
             defaultValue: false
         },
         date: {
