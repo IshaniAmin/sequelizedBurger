@@ -12,7 +12,7 @@ if (app.settings.env == 'development'){
     host: "localhost",
     user: "root",
     password: "root",
-    database: "groupon_db"
+    database: "burger_db"
   });
 }else {
   var connection = mysql.createConnection(process.env.JAWSDB_URL);
